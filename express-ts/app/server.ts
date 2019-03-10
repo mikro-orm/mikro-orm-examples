@@ -4,7 +4,6 @@ import { EntityManager, EntityRepository, MikroORM, RequestContext } from 'mikro
 import { AuthorController, BookController } from './controllers';
 import { Author, Book, BookTag, Publisher } from './entities';
 import { BaseEntity } from './entities/BaseEntity';
-import tracy from 'tracy.js/dist';
 
 export const DI = {} as {
   orm: MikroORM,
@@ -17,8 +16,6 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 (async () => {
-  tracy.enable();
-
   DI.orm = await MikroORM.init({
     entities: [Author, Book, BookTag, Publisher, BaseEntity],
     entitiesDirsTs: ['app/entities'],
