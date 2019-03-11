@@ -1,0 +1,23 @@
+{
+  "name": "mikro-orm-express-js-example",
+  "version": "0.0.1",
+  "description": "Example integration of MikroORM into express (in javascript)",
+  "author": "Martin Adamek",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app/server",
+    "start:dev": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-promise-router": "^3.0.3",
+    "mikro-orm": "^2.0.2",
+    "mongodb": "^3.1.13",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/mongodb": "^3.1.20",
+    "nodemon": "^1.18.10"
+  }
+}

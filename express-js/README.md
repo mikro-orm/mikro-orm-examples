@@ -1,7 +1,7 @@
-# Express + MongoDB + TypeScript example integration
+# Express + MongoDB + JavaScript example integration
 
 1. Install dependencies via `yarn` or `npm install`
-2. Run via `yarn start` or `yarn start:dev` (watch mode)
+2. Run via `yarn start` or `yarn start:dev` (nodemon)
 3. Example API is running on localhost:3000
 
 Available routes:

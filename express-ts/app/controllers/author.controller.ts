@@ -6,6 +6,7 @@ import { DI } from '../server';
 import { Author } from '../entities';
 
 const router = Router();
+
 router.get('/', async (req: Request, res: Response) => {
   const authors = await DI.authorRepository.findAll(['books'], { name: QueryOrder.DESC }, 20);
   res.json(authors);
