@@ -7,7 +7,7 @@ import { Book } from '../entities';
 const router = Router();
 
 router.get('/', async (req: Request, res: Response) => {
-  const books = await DI.bookRepository.findAll(['author'], { name: QueryOrder.DESC }, 20);
+  const books = await DI.bookRepository.findAll(['author'], { title: QueryOrder.DESC }, 20);
   res.json(books);
 });
 
@@ -26,13 +26,13 @@ router.get('/:id', async (req: Request, res: Response) => {
 });
 
 router.post('/', async (req: Request, res: Response) => {
-  if (!req.body.name || !req.body.author) {
+  if (!req.body.title || !req.body.author) {
     res.status(400);
-    return res.json({ message: 'One of `name, author` is missing' });
+    return res.json({ message: 'One of `title, author` is missing' });
   }
 
   try {
-    const book = new Book(req.body.name, req.body.author);
+    const book = new Book(req.body.title, req.body.author);
     book.assign(req.body);
     await DI.bookRepository.persist(book);
 

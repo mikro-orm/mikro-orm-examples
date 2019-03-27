@@ -1,8 +1,9 @@
 # Express + MongoDB + JavaScript example integration
 
 1. Install dependencies via `yarn` or `npm install`
-2. Run via `yarn start` or `yarn start:dev` (nodemon)
-3. Example API is running on localhost:3000
+2. Run `docker-compose up -d` to start mongodb
+3. Run via `yarn start` or `yarn start:dev` (nodemon)
+4. Example API is running on localhost:3000
 
 Available routes:
 

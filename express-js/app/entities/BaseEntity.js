@@ -4,7 +4,7 @@ const { Collection, ReferenceType } = require('mikro-orm');
 const { MetadataStorage } = require('mikro-orm/dist/metadata');
 
 /**
- * @property {ObjectID} id
+ * @property {ObjectID} _id
  * @property {Date} createdAt
  * @property {Date} updatedAt
  */
@@ -28,7 +28,7 @@ class BaseEntity {
 
 const schema = {
   properties: {
-    id: {
+    _id: {
       primary: true,
       type: 'ObjectID',
     },
