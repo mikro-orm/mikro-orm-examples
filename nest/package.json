@@ -22,7 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^5.1.0",
     "@nestjs/core": "^5.1.0",
-    "mikro-orm": "^2.1.0-rc.1",
+    "mikro-orm": "^2.1.0-rc.2",
     "mysql2": "^1.6.5",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.2.2",
