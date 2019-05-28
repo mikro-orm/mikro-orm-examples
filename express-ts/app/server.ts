@@ -28,9 +28,7 @@ const port = process.env.PORT || 3000;
   DI.bookRepository = DI.orm.em.getRepository(Book);
 
   app.use(express.json());
-  app.use((req, res, next) => {
-    RequestContext.create(DI.orm.em, next);
-  });
+  app.use((req, res, next) => RequestContext.create(DI.orm.em, next));
   app.get('/', (req, res) => res.json({ message: 'Welcome to MikroORM express TS example, try CRUD on /author and /book endpoints!' }));
   app.use('/author', AuthorController);
   app.use('/book', BookController);

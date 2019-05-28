@@ -8,7 +8,7 @@ export class MikroOrmMiddleware implements NestMiddleware {
 
   resolve(...args: any[]): MiddlewareFunction {
     return (req, res, next) => {
-      RequestContext.create(this.orm.em, next);
+      RequestContext.create(this.orm.em, next as any);
     };
   }
 

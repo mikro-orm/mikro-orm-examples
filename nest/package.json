@@ -1,7 +1,7 @@
 {
-  "name": "nest",
+  "name": "mikro-orm-nest-ts-example",
   "version": "0.0.1",
-  "description": "description",
+  "description": "Example integration of MikroORM into Nest (in typescript)",
   "author": "Martin Adamek",
   "license": "MIT",
   "scripts": {
@@ -22,7 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^5.1.0",
     "@nestjs/core": "^5.1.0",
-    "mikro-orm": "^2.1.0-rc.2",
+    "mikro-orm": "^2.6.0",
     "mysql2": "^1.6.5",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.2.2",
