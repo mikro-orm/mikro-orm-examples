@@ -7,3 +7,6 @@
 [submodule "express-js-example-app"]
 	path = express-js-example-app
 	url = git@github.com:mikro-orm/express-js-example-app
+[submodule "express-ts-example-app"]
+	path = express-ts-example-app
+	url = git@github.com:mikro-orm/express-ts-example-app
