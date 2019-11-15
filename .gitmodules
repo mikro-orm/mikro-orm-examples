@@ -1,0 +1,3 @@
+[submodule "nestjs-realworld-example-app"]
+	path = nestjs-realworld-example-app
+	url = git@github.com:mikro-orm/nestjs-realworld-example-app.git
