@@ -4,3 +4,6 @@
 [submodule "nestjs-example-app"]
 	path = nestjs-example-app
 	url = git@github.com:mikro-orm/nestjs-example-app.git
+[submodule "express-js-example-app"]
+	path = express-js-example-app
+	url = git@github.com:mikro-orm/express-js-example-app
