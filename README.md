@@ -2,8 +2,8 @@
 
 ## TypeScript examples
 
-- [Express + MongoDB](https://github.com/B4nan/mikro-orm-examples/tree/master/express-ts)
-- [Nest + MySQL](https://github.com/B4nan/mikro-orm-examples/tree/master/nest)
+- [Express + MongoDB](https://github.com/mikro-orm/mikro-orm-examples/tree/master/express-ts)
+- [NestJS + MySQL](https://github.com/mikro-orm/nestjs-example-app)
 
 ## JavaScript examples 
 - [Express + MongoDB](https://github.com/B4nan/mikro-orm-examples/tree/master/express-js)
