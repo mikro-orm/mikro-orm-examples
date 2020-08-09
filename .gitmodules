@@ -10,3 +10,6 @@
 [submodule "express-ts-example-app"]
 	path = express-ts-example-app
 	url = git@github.com:mikro-orm/express-ts-example-app
+[submodule "koa-ts-example-app"]
+	path = koa-ts-example-app
+	url = git@github.com:mikro-orm/koa-ts-example-app
