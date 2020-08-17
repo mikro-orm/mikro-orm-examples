@@ -16,3 +16,6 @@
 [submodule "graphql-ts-example-app"]
 	path = graphql-ts-example-app
 	url = git@github.com:driescroons/mikro-orm-graphql-example.git
+[submodule "serverless-mikro-orm-example-app"]
+	path = serverless-mikro-orm-example-app
+	url = https://github.com/thomaschaaf/serverless-mikro-orm-example-app
