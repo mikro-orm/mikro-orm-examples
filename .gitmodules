@@ -19,3 +19,6 @@
 [submodule "serverless-mikro-orm-example-app"]
 	path = serverless-mikro-orm-example-app
 	url = https://github.com/thomaschaaf/serverless-mikro-orm-example-app
+[submodule "mikro-orm-nextjs"]
+	path = mikro-orm-nextjs
+	url = https://github.com/jonahallibone/mikro-orm-nextjs
